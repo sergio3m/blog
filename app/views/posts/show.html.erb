@@ -15,7 +15,7 @@
   <%= @post.content %>
 </p>
 
-<%= render :partial => "/comments/comments_post" %>
+<%= render 'comments/new' %>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
